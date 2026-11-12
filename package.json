@@ -1,0 +1,22 @@
+{
+  "name": "company-site-template",
+  "version": "1.0.0",
+  "description": "Blueprint-style marketing site template for local and service companies",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "marketing",
+    "landing-page",
+    "blueprint",
+    "template",
+    "design-system",
+    "local-business",
+    "service-company"
+  ],
+  "author": "Daniel Willis-Brown <iam@w-b.dev>",
+  "license": "MIT"
+}
