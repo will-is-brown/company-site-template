@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Zero Dependencies](https://img.shields.io/badge/Dependencies-0-success.svg)](package.json)
-[![Tests Passing](https://img.shields.io/badge/Tests-12%20passing-brightgreen.svg)](test/app.test.js)
+[![Tests Passing](https://img.shields.io/badge/Tests-13%20passing-brightgreen.svg)](test/app.test.js)
 [![Font: Self--Hosted](https://img.shields.io/badge/Font-Self--Hosted%20WOFF2-c2410c.svg)](#typography--performance)
 
 A high-craft, single-page marketing site template for **local and service companies** — plumbing, HVAC, electrical, roofing, clinics, studios. Built on **Blueprint**, the w-b.dev design system ([design.w-b.dev](https://design.w-b.dev)).
@@ -123,10 +123,11 @@ The display face never runs prose. Body measure stays at 52–60ch.
 ## Quick Start
 
 ```bash
+git clone https://github.com/will-is-brown/company-site-template.git
 cd company-site-template
 
 npm start        # http://localhost:3000
-npm test         # 12 assertions, node:test, zero dependencies
+npm test         # 13 assertions, node:test, zero dependencies
 ```
 
 ---
@@ -210,7 +211,7 @@ company-site-template/
 │       └── space-mono-700.woff2
 ├── server.js               # Web-standard HTTP server, immutable caching
 ├── test/
-│   └── app.test.js         # node:test suite, 12 assertions
+│   └── app.test.js         # node:test suite, 13 assertions
 ├── package.json            # Zero runtime dependencies
 ├── LICENSE                 # MIT
 └── README.md
